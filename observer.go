@@ -40,11 +40,11 @@ const (
 
 var (
 	ChartSubTitles = map[string]string{
-		ChartKeyCPU:    "Y-axis unit: total ms",
+		ChartKeyCPU:    "Y-axis unit: total cpu time (ms)",
 		ChartKeyMsgNum: "Y-axis unit: total handled msg num",
-		ChartKeyMqLen:  "Y-axis unit: msg queue len",
-		ChartKeyLuaMem: "Y-axis unit: lua vm mem kb",
-		ChartKeyCMem:   "Y-axis unit: c mem kb",
+		ChartKeyMqLen:  "Y-axis unit: current msg queue len",
+		ChartKeyLuaMem: "Y-axis unit: current lua vm mem (kb)",
+		ChartKeyCMem:   "Y-axis unit: current c mem (kb)",
 	}
 )
 
