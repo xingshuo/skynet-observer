@@ -41,6 +41,7 @@ a web graphical tool for observing the debug console sampling data in skynet
 ![image](test/test_mem.png)
 ![image](test/test_cpu.png)
 
-## 其他
+## 其他扩展库
+* https://github.com/xingshuo/skynet-ext
 * https://github.com/xingshuo/skynet-perf
 * https://github.com/xingshuo/skynet-mprof
